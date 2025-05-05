@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: com.supabase.controller.FavoriteControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.656 s <<< FAILURE! -- in com.supabase.controller.FavoriteControllerTest
+com.supabase.controller.FavoriteControllerTest.testAddAndDeleteFavorite -- Time elapsed: 0.030 s <<< ERROR!
+java.lang.IllegalArgumentException: URI is not absolute
+	at java.base/java.net.URL.fromURI(URL.java:721)
+	at java.base/java.net.URI.toURL(URI.java:1139)
+	at org.springframework.http.client.SimpleClientHttpRequestFactory.createRequest(SimpleClientHttpRequestFactory.java:154)
+	at org.springframework.http.client.support.HttpAccessor.createRequest(HttpAccessor.java:124)
+	at org.springframework.web.client.RestTemplate.doExecute(RestTemplate.java:873)
+	at org.springframework.web.client.RestTemplate.execute(RestTemplate.java:790)
+	at org.springframework.web.client.RestTemplate.exchange(RestTemplate.java:672)
+	at org.springframework.boot.test.web.client.TestRestTemplate.exchange(TestRestTemplate.java:711)
+	at com.supabase.controller.FavoriteControllerTest.testAddAndDeleteFavorite(FavoriteControllerTest.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+

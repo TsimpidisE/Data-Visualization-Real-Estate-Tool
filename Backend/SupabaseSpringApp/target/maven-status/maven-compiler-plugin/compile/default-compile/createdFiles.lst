@@ -1,0 +1,14 @@
+com\supabase\model\LoanResponse.class
+com\supabase\model\SupabaseUser.class
+com\supabase\controller\AuthController.class
+com\supabase\controller\FavoriteController.class
+com\supabase\handler\GlobalExceptionHandler.class
+com\supabase\controller\LoanController.class
+com\supabase\controller\PropertyController.class
+com\supabase\config\SecurityConfig.class
+com\supabase\controller\UserController.class
+com\supabase\SupabaseSpringAppApplication.class
+com\supabase\service\SupabaseService.class
+com\supabase\config\OpenAPIConfig.class
+com\supabase\service\JWTService.class
+com\supabase\model\LoanRequest.class

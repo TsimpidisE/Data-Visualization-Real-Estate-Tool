@@ -1,0 +1,5 @@
+com\supabase\controller\AuthControllerTest.class
+com\supabase\controller\LoanControllerTest.class
+com\supabase\controller\FavoriteControllerTest.class
+com\supabase\controller\PropertyControllerTest.class
+com\supabase\controller\UserControllerRoleTest.class
